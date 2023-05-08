@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F973132A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F973122A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift */; };
+		47F973152A08DA8B00E9C048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F973142A08DA8B00E9C048 /* ContentView.swift */; };
+		47F973172A08DA8C00E9C048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F973162A08DA8C00E9C048 /* Assets.xcassets */; };
+		47F9731B2A08DA8C00E9C048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F9731A2A08DA8C00E9C048 /* Preview Assets.xcassets */; };
+		47F973252A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F973242A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.swift */; };
+		47F9732F2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F9732E2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.swift */; };
+		47F973312A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F973302A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F973212A08DA8C00E9C048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F973072A08DA8B00E9C048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F9730E2A08DA8B00E9C048;
+			remoteInfo = ParticleUpFadeOutAnimation;
+		};
+		47F9732B2A08DA8C00E9C048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F973072A08DA8B00E9C048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F9730E2A08DA8B00E9C048;
+			remoteInfo = ParticleUpFadeOutAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47F9730F2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleUpFadeOutAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F973122A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleUpFadeOutAnimationApp.swift; sourceTree = "<group>"; };
+		47F973142A08DA8B00E9C048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47F973162A08DA8C00E9C048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F973182A08DA8C00E9C048 /* ParticleUpFadeOutAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ParticleUpFadeOutAnimation.entitlements; sourceTree = "<group>"; };
+		47F9731A2A08DA8C00E9C048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47F973202A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleUpFadeOutAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F973242A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleUpFadeOutAnimationTests.swift; sourceTree = "<group>"; };
+		47F9732A2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleUpFadeOutAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F9732E2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleUpFadeOutAnimationUITests.swift; sourceTree = "<group>"; };
+		47F973302A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleUpFadeOutAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F9730C2A08DA8B00E9C048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F9731D2A08DA8C00E9C048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F973272A08DA8C00E9C048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F973062A08DA8B00E9C048 = {
+			isa = PBXGroup;
+			children = (
+				47F973112A08DA8B00E9C048 /* ParticleUpFadeOutAnimation */,
+				47F973232A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests */,
+				47F9732D2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests */,
+				47F973102A08DA8B00E9C048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F973102A08DA8B00E9C048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F9730F2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation.app */,
+				47F973202A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.xctest */,
+				47F9732A2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F973112A08DA8B00E9C048 /* ParticleUpFadeOutAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				47F973122A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift */,
+				47F973142A08DA8B00E9C048 /* ContentView.swift */,
+				47F973162A08DA8C00E9C048 /* Assets.xcassets */,
+				47F973182A08DA8C00E9C048 /* ParticleUpFadeOutAnimation.entitlements */,
+				47F973192A08DA8C00E9C048 /* Preview Content */,
+			);
+			path = ParticleUpFadeOutAnimation;
+			sourceTree = "<group>";
+		};
+		47F973192A08DA8C00E9C048 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47F9731A2A08DA8C00E9C048 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47F973232A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F973242A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.swift */,
+			);
+			path = ParticleUpFadeOutAnimationTests;
+			sourceTree = "<group>";
+		};
+		47F9732D2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F9732E2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.swift */,
+				47F973302A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITestsLaunchTests.swift */,
+			);
+			path = ParticleUpFadeOutAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F9730E2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F973342A08DA8C00E9C048 /* Build configuration list for PBXNativeTarget "ParticleUpFadeOutAnimation" */;
+			buildPhases = (
+				47F9730B2A08DA8B00E9C048 /* Sources */,
+				47F9730C2A08DA8B00E9C048 /* Frameworks */,
+				47F9730D2A08DA8B00E9C048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleUpFadeOutAnimation;
+			productName = ParticleUpFadeOutAnimation;
+			productReference = 47F9730F2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F9731F2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F973372A08DA8C00E9C048 /* Build configuration list for PBXNativeTarget "ParticleUpFadeOutAnimationTests" */;
+			buildPhases = (
+				47F9731C2A08DA8C00E9C048 /* Sources */,
+				47F9731D2A08DA8C00E9C048 /* Frameworks */,
+				47F9731E2A08DA8C00E9C048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F973222A08DA8C00E9C048 /* PBXTargetDependency */,
+			);
+			name = ParticleUpFadeOutAnimationTests;
+			productName = ParticleUpFadeOutAnimationTests;
+			productReference = 47F973202A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F973292A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F9733A2A08DA8C00E9C048 /* Build configuration list for PBXNativeTarget "ParticleUpFadeOutAnimationUITests" */;
+			buildPhases = (
+				47F973262A08DA8C00E9C048 /* Sources */,
+				47F973272A08DA8C00E9C048 /* Frameworks */,
+				47F973282A08DA8C00E9C048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F9732C2A08DA8C00E9C048 /* PBXTargetDependency */,
+			);
+			name = ParticleUpFadeOutAnimationUITests;
+			productName = ParticleUpFadeOutAnimationUITests;
+			productReference = 47F9732A2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F973072A08DA8B00E9C048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					47F9730E2A08DA8B00E9C048 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					47F9731F2A08DA8C00E9C048 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 47F9730E2A08DA8B00E9C048;
+					};
+					47F973292A08DA8C00E9C048 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 47F9730E2A08DA8B00E9C048;
+					};
+				};
+			};
+			buildConfigurationList = 47F9730A2A08DA8B00E9C048 /* Build configuration list for PBXProject "ParticleUpFadeOutAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F973062A08DA8B00E9C048;
+			productRefGroup = 47F973102A08DA8B00E9C048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F9730E2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation */,
+				47F9731F2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests */,
+				47F973292A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F9730D2A08DA8B00E9C048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F9731B2A08DA8C00E9C048 /* Preview Assets.xcassets in Resources */,
+				47F973172A08DA8C00E9C048 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F9731E2A08DA8C00E9C048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F973282A08DA8C00E9C048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F9730B2A08DA8B00E9C048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F973152A08DA8B00E9C048 /* ContentView.swift in Sources */,
+				47F973132A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F9731C2A08DA8C00E9C048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F973252A08DA8C00E9C048 /* ParticleUpFadeOutAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F973262A08DA8C00E9C048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F9732F2A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITests.swift in Sources */,
+				47F973312A08DA8C00E9C048 /* ParticleUpFadeOutAnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F973222A08DA8C00E9C048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F9730E2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation */;
+			targetProxy = 47F973212A08DA8C00E9C048 /* PBXContainerItemProxy */;
+		};
+		47F9732C2A08DA8C00E9C048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F9730E2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation */;
+			targetProxy = 47F9732B2A08DA8C00E9C048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47F973322A08DA8C00E9C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47F973332A08DA8C00E9C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		47F973352A08DA8C00E9C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ParticleUpFadeOutAnimation/ParticleUpFadeOutAnimation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParticleUpFadeOutAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F973362A08DA8C00E9C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ParticleUpFadeOutAnimation/ParticleUpFadeOutAnimation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParticleUpFadeOutAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47F973382A08DA8C00E9C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleUpFadeOutAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParticleUpFadeOutAnimation";
+			};
+			name = Debug;
+		};
+		47F973392A08DA8C00E9C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleUpFadeOutAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParticleUpFadeOutAnimation";
+			};
+			name = Release;
+		};
+		47F9733B2A08DA8C00E9C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParticleUpFadeOutAnimation;
+			};
+			name = Debug;
+		};
+		47F9733C2A08DA8C00E9C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParticleUpFadeOutAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F9730A2A08DA8B00E9C048 /* Build configuration list for PBXProject "ParticleUpFadeOutAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F973322A08DA8C00E9C048 /* Debug */,
+				47F973332A08DA8C00E9C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F973342A08DA8C00E9C048 /* Build configuration list for PBXNativeTarget "ParticleUpFadeOutAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F973352A08DA8C00E9C048 /* Debug */,
+				47F973362A08DA8C00E9C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F973372A08DA8C00E9C048 /* Build configuration list for PBXNativeTarget "ParticleUpFadeOutAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F973382A08DA8C00E9C048 /* Debug */,
+				47F973392A08DA8C00E9C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F9733A2A08DA8C00E9C048 /* Build configuration list for PBXNativeTarget "ParticleUpFadeOutAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F9733B2A08DA8C00E9C048 /* Debug */,
+				47F9733C2A08DA8C00E9C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F973072A08DA8B00E9C048 /* Project object */;
+}
