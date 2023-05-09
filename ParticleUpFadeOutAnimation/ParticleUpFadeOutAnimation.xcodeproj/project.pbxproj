@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4703194A2A08E000001070EF /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470319492A08E000001070EF /* ParticleView.swift */; };
+		4703194C2A08E46B001070EF /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703194B2A08E46B001070EF /* NoteView.swift */; };
 		47F973132A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F973122A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift */; };
 		47F973152A08DA8B00E9C048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F973142A08DA8B00E9C048 /* ContentView.swift */; };
 		47F973172A08DA8C00E9C048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F973162A08DA8C00E9C048 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		470319492A08E000001070EF /* ParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
+		4703194B2A08E46B001070EF /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		47F9730F2A08DA8B00E9C048 /* ParticleUpFadeOutAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleUpFadeOutAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F973122A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleUpFadeOutAnimationApp.swift; sourceTree = "<group>"; };
 		47F973142A08DA8B00E9C048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				47F973122A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift */,
 				47F973142A08DA8B00E9C048 /* ContentView.swift */,
 				470319492A08E000001070EF /* ParticleView.swift */,
+				4703194B2A08E46B001070EF /* NoteView.swift */,
 				47F973162A08DA8C00E9C048 /* Assets.xcassets */,
 				47F973182A08DA8C00E9C048 /* ParticleUpFadeOutAnimation.entitlements */,
 				47F973192A08DA8C00E9C048 /* Preview Content */,
@@ -264,6 +267,7 @@
 			files = (
 				4703194A2A08E000001070EF /* ParticleView.swift in Sources */,
 				47F973152A08DA8B00E9C048 /* ContentView.swift in Sources */,
+				4703194C2A08E46B001070EF /* NoteView.swift in Sources */,
 				47F973132A08DA8B00E9C048 /* ParticleUpFadeOutAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
